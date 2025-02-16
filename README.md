@@ -1,10 +1,13 @@
-This repository contains a Sales Forecasting project where we analyze past sales data and build predictive models using advanced machine learning and time series forecasting techniques like SARIMAX, LightGBM, Exponential Smoothening.
+📈 Sales Forecasting
+This repository contains a Sales Forecasting project where we analyze past sales data and build predictive models using advanced machine learning and time series forecasting techniques like SARIMAX, Exponential Smoothening, LightGBM.
 
 📂 Project Structure
 bash
 Copy
 Edit
 ├── aryan_sales_forecasting.ipynb  # Jupyter Notebook with the analysis
+├── data/                          # (Optional) Folder containing dataset
+├── models/                        # (Optional) Saved models
 ├── README.md                      # Project documentation
 📝 Overview
 This project focuses on forecasting sales trends using a combination of traditional statistical methods and modern machine learning models. The goal is to identify patterns, seasonality, and trends to make accurate sales predictions.
@@ -17,6 +20,7 @@ Feature Engineering
 Model Training & Evaluation using:
 SARIMAX (Seasonal ARIMA with Exogenous Variables)
 LightGBM (Gradient Boosting for Time Series Forecasting)
+
 ⚙️ Installation & Requirements
 To run this project, install the required dependencies using:
 
@@ -56,5 +60,6 @@ Based on the evaluation metrics, the best-performing model is chosen for final s
 
 🤝 Contributing
 Feel free to fork this repository and submit pull requests to enhance the project!
+
 
 
